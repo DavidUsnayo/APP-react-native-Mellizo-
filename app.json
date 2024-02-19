@@ -4,10 +4,10 @@
     "slug": "Mellizo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ic.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/inicio.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/ic.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.david.po.Mellizo"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/ic.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e83ac4a4-4dfd-4a90-a6d7-2b6375b882bf"
+      }
     }
   }
 }
